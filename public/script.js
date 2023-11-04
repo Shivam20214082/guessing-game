@@ -145,7 +145,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const socket = io('http://localhost:3000');
+    // const socket = io('http://localhost:3000');
+    const socket = io('https://gussing-game-63hl.onrender.com/');
     const form = document.getElementById('send-container');
     const messageInput = document.getElementById('message-input');
     const messageContainer = document.querySelector(".chat-messages");
